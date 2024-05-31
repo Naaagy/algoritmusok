@@ -1,3 +1,5 @@
+1. feladat
+
 function removeFirstAndLast(string) {
     if (!string) return null;
 
@@ -17,7 +19,7 @@ console.log(removeFirstAndLast('1,2,3,4'))
 console.log(removeFirstAndLast('A1,B2,C3,D4,E5'))
 console.log(removeFirstAndLast('A,1,23,456,78,9,Z'))
 
-
+2. feladat
 
 function dnaStrand(dna) {
     const complements = { 'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C' };
@@ -31,6 +33,7 @@ console.log(dnaStrand("GTAT"))
 console.log(dnaStrand("TAGACAT"))
 console.log(dnaStrand(""))
 
+3. feladat
 
 function deEmojify(emojiString) {
     const emojiMap = {
